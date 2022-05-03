@@ -1,0 +1,150 @@
+.header{
+    background-color: rgb(247, 168, 9);
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.header img{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.header ul{
+  margin-top: 15px;
+   float: left; 
+   position: absolute;
+   left:15%;
+   top:3%;
+}
+.header ul li{
+    float: left;
+    list-style: none;
+    width: 200px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header ul li a:hover{       
+      background: black;
+      color: rgb(247, 168, 9);
+}
+.body{
+    background-color:rgb(12, 11, 11);
+    width: 100%;
+    height: auto;
+}
+.body2{
+  background: white;
+  width: 100%;
+  height: auto;
+  position: relative;  
+}
+.byose{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    color: rgb(247, 168, 9);
+}
+.about{
+    font-family:  Calibri ;
+    font-weight: bold;
+    font-size: 35px;
+}
+.about2{
+    font-size: 20px;
+    font-family: calibri;
+}
+.tbl{
+    width: auto;
+    height: auto;
+}
+.tbl table tr:first-child{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.tbl table{    
+    margin-left: 500px;
+    color: white;
+}
+.tbl table{
+     font-size: 30px;
+}
+.tbl a{
+    text-decoration: none;
+    color: rgb(247, 168, 9);
+}
+.footer{
+  background-color:black;
+  width: 100%;
+  height:50px;
+  color:white;
+  font-size: 20px;
+  position: relative;
+}
+.footer table{
+    text-align:center;
+}
+.ftr{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.imgb{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+.icons{
+    position: absolute;
+    margin-top: 10px;
+    width: auto;
+    height: 50px;
+    margin-left: 1150px;
+}
+.icons ion-icon{
+    size: large;
+    width: 40px;
+    color: white;
+}
+.icons ion-icon:hover{
+    size: large;
+    width: 40px;
+    color: rgb(247, 168, 9);
+}
+/*----------------This CSS is for gallery----------------------*/
+
+.tbl img{
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 35px;
+}
+.load{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 550px;
+    width: 200px;
+    height: auto;
+    border:2px solid rgb(247, 168, 9);
+    border-radius: 50px;
+    padding: 10px;
+}
+.load:hover{
+    color: white;
+    background-color: rgb(247, 168, 9);
+}
+/*----------------This is the end of CSS for gallery----------------------*/
+
+/*--------This is the beggining of slideshow images--------*/
+
+ /* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------This is the end of our slide animation-----------*/
